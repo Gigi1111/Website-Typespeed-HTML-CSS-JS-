@@ -1,0 +1,127 @@
+:root {
+  --lightPurple: rgb(206, 197, 224);
+  --darkPurple: rgb(91, 87, 99);
+  --gradPurple: rgb(121, 95, 173);
+  --gradBlue: rgb(69, 129, 193);
+  --white: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: var(--white) !important;
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1, p {
+  color: var(--white) !important;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  color: var(--white) !important;
+}
+
+.facebook {
+  border: 1px #3b5998 solid;
+  color: #3b5998;
+  border-radius: 20px;
+}
+
+.facebook:hover {
+  border: 1px:#8b9dc3 solid;
+  color: #8b9dc3;
+}
+
+.jumbotron {
+  position: absolute;
+  width: 100vw;
+  padding-top: 100px;
+  top: 0;
+  z-index: -1;
+  height: 415px !important;
+  background: linear-gradient(to right, var(--gradPurple), var(--gradBlue));
+}
+
+.navbar {
+  background: rgba(160, 160, 160, 0.8);
+}
+
+input {
+ border:none !important;
+ padding:100px !important;
+  position: absolute;
+  bottom: 100px;
+  font-size: 10px;
+  left: 50vw;
+  z-index:100;
+  padding: 0 !important;
+  width: 4px !important;
+  background:grey !important;
+  opacity:0.5;
+  caret-color:black;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border:transparent !important;
+  box-shadow: none !important;
+  outline: 0 none !important;
+}
+
+.start {
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+}
+
+.end {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pause, .resume {
+  position: absolute;
+  bottom: 50px;
+}
+.resume{
+  display:none;
+}
+
+
+.sampleWords {
+  color: var(--gradPurple) !important;
+  position: absolute;
+  z-index: 2;
+  bottom: 93px;
+  left: 50vw;
+  font-size: 20px;
+}
+
+.typedWords {
+  color: var(--gradBlue) !important;
+  position: absolute;
+  z-index: 2;
+  bottom: 93px;
+  right: 50vw;
+  font-size: 20px;
+}
