@@ -21,8 +21,7 @@ let notWrong;
 let newCount = true;
 window.addEventListener('load', init);
 
-const words = "my dear deer babe square pants thank you so much for getting grocery for cooking like a french chef for making fun of yourself for my entertainment and most of all thanks for being yourself i kinda want to go to the incline today but i understand you have been out all day and just want to cave in and eat and watch cops and fundle with lily and terrorizing the cats but i am happy as long as you are there by the way you are very cute sitting there on the bed".split(/(?:,| )+/);
-
+const words = "The wind roars up the avenue. Trees stoop and bend this way and that. Moonbeams splash and spill wildly in the rain. But the beam of the lamp falls straight from the window. The candle burns stiff and still. Wandering through the house, opening the windows, whispering not to wake us, the ghostly couple seek their joy."
 console.log(words);
 //initialize game
 function init() {
